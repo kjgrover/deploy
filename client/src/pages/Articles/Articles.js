@@ -146,7 +146,7 @@ class articles extends Component {
                   <ListItem key={article._id}>
                     <Link to={"/articles/" + article._id}>
                       <strong>
-                        {article.title} by {article.author}
+                        {article.title}
                       </strong>
                     </Link>
                     <DeleteBtn onClick={() => this.deleteArticle(article._id)} />
