@@ -76,7 +76,7 @@ class articles extends Component {
         <Row>
           <Col size="md-12">
             <div >
-              <h1 className = "text-center">Search</h1>
+              <h1 className = "text-center">Search NYT Articles</h1>
             </div>
             <form>
               <Input
