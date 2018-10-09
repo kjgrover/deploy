@@ -35,14 +35,14 @@ class Detail extends Component {
           </Col>
         </Row>
         <Row>
-          <Col size="md-10 md-offset-1">
-    
-          </Col>
-        </Row>
-        <Row>
           <Col size="md-2">
+          <div class="fixed-bottom">
             <Link to="/">← Back to NYT Search</Link>
+          </div>
+          <br></br>
+
           </Col>
+
         </Row>
       </Container>
     );
